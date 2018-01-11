@@ -84,3 +84,8 @@ admin:
   username: leeyvon
   password_hash: $2a$10$PF74IjfcCbRCGNw73b4u3OhYOodfq/1Z9xagALKBy/u3KzWsNyQmm
   secret: a secret something
+
+deploy:
+- type: git
+  repository: https://github.com/leeyvon/leeyvon.github.io.git
+  branch: master
