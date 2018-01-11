@@ -83,6 +83,6 @@ admin:
   secret: a secret something
 
 deploy:
- - type: git
-   repository: https://github.com/leeyvon/leeyvon.github.io.git
-   branch: master
+- type: git
+  repo: https://github.com/leeyvon/leeyvon.github.io.git
+  branch: master
