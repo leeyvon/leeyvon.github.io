@@ -76,9 +76,6 @@ theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
-
 
 admin:
   username: leeyvon
@@ -86,6 +83,6 @@ admin:
   secret: a secret something
 
 deploy:
-- type: git
-  repository: https://github.com/leeyvon/leeyvon.github.io.git
-  branch: master
+ - type: git
+   repository: https://github.com/leeyvon/leeyvon.github.io.git
+   branch: master
